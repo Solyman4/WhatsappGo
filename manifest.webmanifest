@@ -1,0 +1,16 @@
+{
+    "name": "Whatsapp Go",
+    "short_name": "Whatsapp Go",
+    "description": "Simply Enter a number and go to whatsapp and chat with it without saving it in your device.",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "images/whatslogo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://whatsappgo.com/",
+    "background_color": "#c9f7da",
+    "theme_color": "#1c9147"
+}

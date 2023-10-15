@@ -1,0 +1,119 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #c9f7da;
+    font-family: sans-serif;
+}
+
+/* Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content div { 
+    text-align: center;
+}
+.modal-content div * { 
+    margin: 20px 0px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;  
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* End Modal */
+
+
+.con { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.con h1 { 
+    text-align: center;
+    color: darkcyan;
+    font-size:50px;
+    transform: translateY(-120px);
+}
+
+.con p { 
+    background-color: #86daa4;
+    padding: 7px 10px;
+    border-radius: 50%;
+    margin: 20px 0px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.con p:hover { 
+    opacity: 0.8;
+}
+
+
+
+.con input { 
+    width: 200px;
+    font-size: 16px;
+    margin-top: 120px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.con button { 
+    background-color: #25D366;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.con button:hover { 
+    background-color: #73e49d;
+}
+.con button:active { 
+    background-color: #1c9147;
+}
+
+.add-button {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
